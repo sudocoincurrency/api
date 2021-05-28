@@ -24,7 +24,8 @@ code { background-color: lightgrey; font-family: monospace }
 <h1>sudocoin API</h1>
 i made an api so you can actually access some data without needing my password (lol) <br>
 v1 endpoints: <code>/api/v1/phpFileName.php</code> <br>
-some endpoints are at different pages, eg <code>createitem.php</code> is not located in <code>/api</code>, it is <code>/createitem.php</code>.
+some endpoints are at different pages, eg <code>createitem.php</code> is not located in <code>/api</code>, it is <code>/createitem.php</code>. <br>
+the documentation for the mining and transfer server (eg. if you want to write a custom client) is <a href="wsdocs.php">here</a>.
 
 <Br> <br>
 
@@ -65,3 +66,6 @@ Parameters required: <br> <code>itemId (int)<br>itemName (string)<br>amountToCha
 Return: <code>ok i think it worked</code> and you should see the item updated in the store<br>
 Note: This is <u>not an official API endpoint</u>, this is just something you can do using the page.<br> <br>
 
+<code class="title">checkId.php</code> <span>(v1)</span> <span class="post">POST</span>  <br>
+Parameters required: <br> <code>password (string)</code> <Br>
+Return: <code>yourid</code> or <code>-1</code> <br> <br>
