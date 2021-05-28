@@ -29,7 +29,7 @@ some endpoints are at different pages, eg <code>createitem.php</code> is not loc
 <Br> <br>
 
 <code class="title">getStatistics.php</code> <span>(v1)</span> <span class="get">GET</span>  <br>
-Return: <code>configId|coinsMined|coinCap</code> <br> <br>
+Return: <code>configId|coinsMined|coinCap|richestUser|richestUsersCoinCount</code> <br> <br>
 
 <code class="title">getStoreItems.php</code> <span>(v1)</span> <span class="get">GET</span>  <br>
 Return: <code>itemName,amountToCharge,sellerId,stock,itemId,category,contactSeller,descr|someOtheriItemName,</code> and so on. <br> <br>
