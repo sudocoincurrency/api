@@ -30,7 +30,7 @@ the documentation for the mining and transfer server (eg. if you want to write a
 <Br> <br>
 
 <code class="title">getStatistics.php</code> <span>(v1)</span> <span class="get">GET</span>  <br>
-Return: <code>configId|coinsMined|coinCap|richestUser|richestUsersCoinCount</code> <br> <br>
+Return: <code>configId|coinsMined|coinCap|richestUser|richestUsersCoinCount|userCount</code> <br> <br>
 
 <code class="title">getStoreItems.php</code> <span>(v1)</span> <span class="get">GET</span>  <br>
 Return: <code>itemName,amountToCharge,sellerId,stock,itemId,category,contactSeller,descr|someOtheriItemName,</code> and so on. <br> <br>
