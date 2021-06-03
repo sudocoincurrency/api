@@ -69,3 +69,6 @@ Note: This is <u>not an official API endpoint</u>, this is just something you ca
 <code class="title">checkId.php</code> <span>(v1)</span> <span class="post">POST</span>  <br>
 Parameters required: <br> <code>password (string)</code> <Br>
 Return: <code>yourid</code> or <code>-1</code> <br> <br>
+
+<code class="title">apiSignUp.php</code> <span>(v1)</span> <span class="get">GET</span>  <br>
+Return: <code>yourid</code> or <code>-1</code> <br> <br>
